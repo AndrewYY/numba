@@ -82,9 +82,8 @@ VISIBILITY_HIDDEN float m_atan2f(float y, float x);
 #define truncf(x) m_truncf(x)
 
 #define atan2f(x, y) m_atan2f(x, y)
+#define atan2(x, y) m_atan2(x, y)
 
 #endif /* !HAVE_C99_MATH */
-
-#define atan2_fixed(x, y) m_atan2(x, y)
 
 #endif /* NUMBA_MATH_C99_H_ */
